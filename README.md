@@ -26,6 +26,7 @@ User:
 |------|------|-------------|
 | id   | int  | primary key |
 | username | str  | unique username |
+| password | str  | password |
 
 Product:
 
