@@ -14,8 +14,8 @@ this is simple rest api project for drf practice
 
 1. User
 2. Product
-3. Comment
-4. Order
+3. Order
+4. Comment
 5. Like
 
 ### Schema
@@ -39,6 +39,14 @@ Product:
 | ram | int  | ram   |
 | color | str  | color   |
 | memory | int  | memory   |
+
+Order:
+
+| name | type | description |
+|------|------|-------------|
+| id   | int  | primary key |
+| user | fk  | user_id   |
+| product | fk  | product_id   |
 
 Comment:
 
